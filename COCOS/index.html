@@ -12,26 +12,15 @@
     <link rel="stylesheet" href="content/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="content/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="content/bootstrap/css/bootstrap-select.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Wire+One" rel="stylesheet">
     <link rel="stylesheet" href="content/css/style.css">
     <link rel="stylesheet" href="content/css/components.css">
-    <link rel="stylesheet" href="content/css/media.css">
-    <!--    <script language="javascript" type="text/javascript">
-        function windowClose() {
-            window.open('', '_parent', '');
-            window.close();
-        }
-    </script>-->
-</head>
+    <link rel="stylesheet" href="content/css/media.css"> </head>
 
 <body ng-app="cocosApp">
     <div class="Wrapper" id="main">
         <div ng-include="'templates/header.html'"></div>
         <section class="Content">
-            <div ui-view></div>
-            <!--<nav class="FloatingNav" ng-controller="PopupDemoCont">
-                <a class="FloatBtn FloatHelp" ng-click="open()"><img src="content/images/HelpBtn.png"></a>
-            </nav>-->
+            <div ng-view></div>
         </section>
         <div ng-include="'templates/footer.html'"></div>
         <div ng-include="'templates/popup.html'"></div>
@@ -41,15 +30,14 @@
     <script src="content/angular/angular.min.js"></script>
     <script src="content/angular/angular-route.min.js"></script>
     <script src="content/bootstrap/js/bootstrap.min.js"></script>
-    <script src="content/js/ui-bootstrap-tpls.js"></script>
-    <script src="content/bootstrap/js/bootstrap-select.min.js"></script>
-
+    <!--<script src="content/js/ui-bootstrap-tpls.js"></script>
+    <script src="content/bootstrap/js/bootstrap-select.min.js"></script>-->
     <!-- Angular Compnents app script -->
     <script src="app/app.js"></script>
     <!-- Angular Compnents directive script -->
     <script src="directives/directive.js"></script>
     <!-- Angular Compnents services script -->
-    <script src="services/services_api.js"></script>
+    <!--<script src="services/services_api.js"></script>-->
     <!--<script src="services/services_json.js"></script>-->
     <!-- Angular Compnents controllers script -->
     <!--<script src="controllers/Home.js"></script>-->
