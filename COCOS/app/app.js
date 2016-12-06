@@ -1,5 +1,5 @@
 // create the module and name it cocosApp
-var app = angular.module('cocosApp', ['ngRoute']);
+var app = angular.module('cocosApp', ['ngRoute', 'ui.bootstrap']);
 // Configure the Routes
 app.config(['$routeProvider', function ($routeProvider) {
     $routeProvider
